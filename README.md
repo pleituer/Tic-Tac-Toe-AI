@@ -15,3 +15,5 @@ It's simple, with one command:
 Then follow the instructions, enter format is: `> {column} {row}`
 
 For example, entering `2 1` will mean your desired spot is column 2, row 1. Both row and column starts counting from 0, so `0 0` will mean the top left corner, `2 0` will mean the top right corner.
+
+Also, `X` means going first and `O` means second. You may change whether the bot should go first or second by setting the variable `TRAINSIDE` to be `X` or `O` respectively
